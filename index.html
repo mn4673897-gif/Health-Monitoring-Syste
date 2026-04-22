@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Monitoring App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <select id="langBtn">
+            <option value="en">English</option>
+            <option value="tl">Tagalog</option>
+        </select>
+
+        <h1 id="ui-header">NutriScan AI</h1>
+
+        <div class="input-group">
+            <label id="ui-age-label">Enter Age:</label>
+            <input type="number" id="userAge" placeholder="e.g. 21">
+
+            <label id="ui-food-label">Food Item:</label>
+            <input type="text" id="foodInput" placeholder="e.g. Egg or Chicken">
+
+            <button id="saveBtn">Analyze & Save</button>
+        </div>
+
+        <div id="resultArea" class="hidden">
+            <h3>Result:</h3>
+            <p id="analysisText"></p>
+        </div>
+
+        <hr>
+        <h2 id="ui-history">Recent Logs</h2>
+        <ul id="logList"></ul>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
