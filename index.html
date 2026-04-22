@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriScan Pro | Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="glass-app">
+        <nav>
+            <span class="logo">CLONDOUR <span>Health</span></span>
+            <select id="langBtn">
+                <option value="en">English</option>
+                <option value="tl">Tagalog</option>
+            </select>
+        </nav>
+
+        <main class="dashboard-grid">
+            <section class="card main-panel">
+                <h2 id="ui-header">Analyze Nutrition</h2>
+                <div class="input-row">
+                    <input type="number" id="userAge" placeholder="Age">
+                    <input type="text" id="foodInput" placeholder="Enter food (e.g. Chicken)">
+                </div>
+                <button id="saveBtn">Generate Insights</button>
+
+                <div id="resultArea" class="result-box hidden">
+                    <p id="analysisText"></p>
+                </div>
+            </section>
+
+            <section class="card stats-panel">
+                <h3>Daily Protein Goal</h3>
+                <div class="progress-container">
+                    <div id="progressBar" class="progress-fill" style="width: 0%"></div>
+                </div>
+                <p id="progressText">0g / 50g</p>
+            </section>
+
+            <section class="card diet-panel">
+                <h3>Recommended for Your Age</h3>
+                <ul id="dietList" class="diet-items"></ul>
+            </section>
+
+            <section class="card chat-panel">
+                <h3>Health Assistant</h3>
+                <div id="chatDisplay" class="chat-screen"></div>
+                <div class="chat-controls">
+                    <input type="text" id="chatInput" placeholder="Ask anything...">
+                    <button id="sendChat">Send</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
