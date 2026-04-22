@@ -1,0 +1,77 @@
+:root {
+    --primary: #6366f1;
+    --bg: #020617;
+    --glass: rgba(15, 23, 42, 0.7);
+}
+
+body {
+    background: var(--bg);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.dashboard {
+    background: var(--glass);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+h1 {
+    grid-column: span 2;
+    background: linear-gradient(to right, #818cf8, #c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input,
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    margin-bottom: 10px;
+}
+
+button {
+    background: var(--primary);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.progress-bar-bg {
+    background: #1e293b;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    background: var(--primary);
+    height: 100%;
+    width: 0%;
+    transition: 0.5s;
+}
+
+.chat-area {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    height: 150px;
+    overflow-y: auto;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
