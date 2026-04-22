@@ -1,0 +1,76 @@
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid var(--border);
+}
+
+.progress-bar-bg {
+    background: #1e293b;
+    height: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.progress-bar-fill {
+    background: var(--primary);
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
+
+.chat-box {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.chat-display {
+    height: 100px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.user-msg {
+    color: var(--accent);
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+.bot-msg {
+    color: #94a3b8;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+.chat-input-area {
+    display: flex;
+    gap: 5px;
+}
+
+.chat-input-area input {
+    flex: 1;
+    padding: 8px;
+    font-size: 0.8rem;
+}
+
+.chat-input-area button {
+    padding: 8px 15px;
+    width: auto;
+    margin: 0;
+}
+
+.scroll-list {
+    list-style: none;
+    padding: 0;
+    font-size: 0.8rem;
+}
