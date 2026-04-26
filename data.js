@@ -102,38 +102,38 @@ const suggestions = {
     { emoji: "🥦", name: "Broccoli", category: "Vegetable", reason: "Vitamin C & K boost immunity and bone health.", nutrients: ["Vitamin C", "Fiber", "Folate"] },
     { emoji: "🍌", name: "Banana", category: "Fruit", reason: "Great energy source with heart-healthy potassium.", nutrients: ["Potassium", "Carbs", "B6"] },
     { emoji: "🍗", name: "Chicken", category: "Protein", reason: "Lean protein with iron & B vitamins for energy.", nutrients: ["Protein", "Iron", "Niacin"] },
-    { emoji: "🍠", name: "Sweet Potato", category: "Vegetable", reason: "Vitamin A for vision; complex carbs for sustained energy.", nutrients: ["Vitamin A", "Fiber", "Potassium"] },
-    { emoji: "🥭", name: "Mango", category: "Fruit", reason: "High in Vitamin C for a strong immune system.", nutrients: ["Vitamin C", "Vitamin A", "Fiber"] },
-    { emoji: "🍚", name: "Rice", category: "Grain", reason: "Easily digestible energy source for active play.", nutrients: ["Carbs", "Iron", "B Vitamins"] }
+    { emoji: "🥭", name: "Mango", category: "Fruit", reason: "Rich in Vitamin C and A for growth and immunity.", nutrients: ["Vitamin C", "Vitamin A", "Fiber"] },
+    { emoji: "🍈", name: "Guava", category: "Fruit", reason: "Incredible Vitamin C source to keep kids healthy.", nutrients: ["Vitamin C", "Fiber", "Potassium"] },
+    { emoji: "🍚", name: "Rice", category: "Grain", reason: "Core energy source for daily activities.", nutrients: ["Carbs", "Protein", "Iron"] }
   ],
   teen: [
     { emoji: "🥩", name: "Beef", category: "Protein", reason: "High iron & zinc crucial during puberty growth.", nutrients: ["Iron", "Zinc", "Protein"] },
     { emoji: "🐟", name: "Salmon", category: "Fish", reason: "Omega-3 supports brain focus for studying teens.", nutrients: ["Omega-3", "Vitamin D", "Protein"] },
     { emoji: "🥬", name: "Spinach", category: "Vegetable", reason: "Iron-rich — vital for teen girls; calcium for growth.", nutrients: ["Iron", "Calcium", "Folate"] },
-    { emoji: "🌾", name: "Oats", category: "Grain", reason: "Sustained energy & fiber for active school-day teens.", nutrients: ["Fiber", "Carbs", "Zinc"] },
+    { emoji: "🌾", name: "Oats", category: "Grain", reason: "Sustained energy & fiber for active school days.", nutrients: ["Fiber", "Carbs", "Zinc"] },
     { emoji: "🥜", name: "Almonds", category: "Nut", reason: "Healthy fats & magnesium for hormone balance.", nutrients: ["Vitamin E", "Magnesium", "Protein"] },
-    { emoji: "🍠", name: "Sweet Potato", category: "Vegetable", reason: "Vitamin A for teen skin; carbs fuel sports.", nutrients: ["Vitamin A", "Fiber", "Potassium"] },
-    { emoji: "🐟", name: "Tilapia", category: "Fish", reason: "High protein and Vitamin D for bone density growth.", nutrients: ["Protein", "Vitamin D", "B12"] },
-    { emoji: "🫘", name: "Lentils", category: "Legume", reason: "Plant-based protein and high fiber for digestive health.", nutrients: ["Protein", "Fiber", "Iron"] }
+    { emoji: "🍠", name: "Sweet Potato", category: "Vegetable", reason: "Vitamin A for skin health and complex carbs for sports.", nutrients: ["Vitamin A", "Fiber", "Potassium"] },
+    { emoji: "🐟", name: "Tilapia", category: "Fish", reason: "Lean protein and Vitamin D for bone development.", nutrients: ["Protein", "Vitamin D", "B12"] },
+    { emoji: "🫘", name: "Lentils", category: "Legumes", reason: "Excellent plant-based iron and fiber for growing teens.", nutrients: ["Iron", "Protein", "Fiber"] }
   ],
   adult: [
     { emoji: "🥑", name: "Avocado", category: "Fruit", reason: "Heart-healthy fats lower cholesterol in adults.", nutrients: ["Healthy Fat", "Potassium", "Fiber"] },
     { emoji: "🐟", name: "Salmon", category: "Fish", reason: "Reduces inflammation; supports heart health.", nutrients: ["Omega-3", "Vitamin D", "B12"] },
     { emoji: "🥦", name: "Broccoli", category: "Vegetable", reason: "Antioxidants fight stress; Vitamin C boosts immunity.", nutrients: ["Vitamin C", "Folate", "Fiber"] },
-    { emoji: "🌾", name: "Oats", category: "Grain", reason: "Lowers LDL cholesterol; great fiber-rich breakfast.", nutrients: ["Beta-Glucan", "Fiber", "Protein"] },
+    { emoji: "🫘", name: "Chickpeas", category: "Legumes", reason: "High fiber and protein for weight management.", nutrients: ["Fiber", "Protein", "Iron"] },
     { emoji: "🧊", name: "Tofu", category: "Plant Protein", reason: "Complete plant protein; excellent for heart health.", nutrients: ["Protein", "Calcium", "Iron"] },
-    { emoji: "🥚", name: "Egg", category: "Protein", reason: "Affordable complete nutrition with all essential aminos.", nutrients: ["Protein", "B12", "Vitamin D"] },
-    { emoji: "🐠", name: "Tuna", category: "Fish", reason: "Very high protein and B12 for metabolic health.", nutrients: ["Protein", "B12", "Selenium"] },
-    { emoji: "🧄", name: "Garlic", category: "Spice", reason: "Contains allicin which may help improve blood pressure.", nutrients: ["Vitamin C", "Manganese", "B6"] }
+    { emoji: "🐠", name: "Tuna", category: "Fish", reason: "High protein and B12 for energy and metabolism.", nutrients: ["Protein", "B12", "Potassium"] },
+    { emoji: "🧄", name: "Garlic", category: "Spice", reason: "Supports heart health and blood pressure maintenance.", nutrients: ["Vitamin C", "Calcium", "Zinc"] },
+    { emoji: "🥚", name: "Egg", category: "Protein", reason: "Affordable and versatile complete nutrition.", nutrients: ["Protein", "B12", "Vitamin D"] }
   ],
   senior: [
-    { emoji: "🐟", name: "Salmon", category: "Fish", reason: "Vitamin D & omega-3 combat age-related bone loss.", nutrients: ["Vitamin D", "Omega-3", "B12"] },
-    { emoji: "🍶", name: "Yogurt", category: "Dairy", reason: "Probiotics for gut health; calcium for senior bones.", nutrients: ["Calcium", "Probiotics", "Protein"] },
-    { emoji: "🥬", name: "Spinach", category: "Vegetable", reason: "Vitamin K supports bone density; folate for brain.", nutrients: ["Vitamin K", "Iron", "Folate"] },
+    { emoji: "🦪", name: "Oyster", category: "Seafood", reason: "Highest Zinc source for immune support and B12 for nerves.", nutrients: ["Zinc", "B12", "Iron"] },
+    { emoji: "🐟", name: "Sardines", category: "Fish", reason: "Soft bones provide calcium; high Omega-3 for heart health.", nutrients: ["Calcium", "Vitamin D", "B12"] },
+    { emoji: "🍶", name: "Yogurt", category: "Dairy", reason: "Probiotics for gut health; calcium for bone density.", nutrients: ["Calcium", "B12", "Protein"] },
+    { emoji: "🥬", name: "Spinach", category: "Vegetable", reason: "Vitamin K supports bone density; folate for brain health.", nutrients: ["Vitamin K", "Iron", "Folate"] },
     { emoji: "🥕", name: "Carrot", category: "Vegetable", reason: "Vitamin A supports eye health that declines with age.", nutrients: ["Vitamin A", "Fiber", "Potassium"] },
-    { emoji: "🥚", name: "Egg", category: "Protein", reason: "Easy to eat; high B12 & Vitamin D often low in seniors.", nutrients: ["B12", "Vitamin D", "Protein"] },
-    { emoji: "🌾", name: "Oats", category: "Grain", reason: "Fiber controls blood sugar & cholesterol in seniors.", nutrients: ["Fiber", "Beta-Glucan", "Zinc"] },
-    { emoji: "🐟", name: "Sardines", category: "Fish", reason: "Soft bones provide extra calcium; high in B12 and Omega-3.", nutrients: ["Calcium", "B12", "Omega-3"] },
-    { emoji: "🧡", name: "Papaya", category: "Fruit", reason: "Contains enzymes that aid digestion and high Vitamin C.", nutrients: ["Vitamin C", "Vitamin A", "Fiber"] }
+    { emoji: "🐟", name: "Mackerel", category: "Fish", reason: "High Vitamin D and Omega-3s for joint and bone health.", nutrients: ["Vitamin D", "B12", "Protein"] },
+    { emoji: "🧡", name: "Papaya", category: "Fruit", reason: "High Vitamin C and easy to digest for seniors.", nutrients: ["Vitamin C", "Fiber", "Vitamin A"] },
+    { emoji: "🌾", name: "Oats", category: "Grain", reason: "Fiber helps control blood sugar and cholesterol levels.", nutrients: ["Fiber", "Zinc", "Carbs"] }
   ]
 };
