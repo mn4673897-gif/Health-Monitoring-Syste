@@ -21,6 +21,71 @@ const foodDB = {
   "almonds":        { emoji:"🥜", calories:579, protein:21,  carbs:22, fat:50,  fiber:12.5,vitaminC:0,    calcium:264, iron:3.7, potassium:733, vitaminA:0,   vitaminD:0,    vitaminB12:0,   zinc:3.12, score:86 },
   "yogurt":         { emoji:"🍶", calories:59,  protein:10,  carbs:3.6,fat:0.4, fiber:0,   vitaminC:0,    calcium:110, iron:0.08,potassium:141, vitaminA:5,   vitaminD:0.1,  vitaminB12:0.75,zinc:0.52, score:82 },
   "orange":         { emoji:"🍊", calories:47,  protein:0.9, carbs:12, fat:0.1, fiber:2.4, vitaminC:53.2, calcium:40,  iron:0.1, potassium:181, vitaminA:11,  vitaminD:0,    vitaminB12:0,   zinc:0.07, score:80 },
+
+    "tilapia":       { emoji:"🐟", calories:129, protein:26, carbs:0, fat:2.7, fiber:0, vitaminC:0, calcium:10, iron:0.6, potassium:380, vitaminA:0, vitaminD:3.6, vitaminB12:1.9, zinc:0.4, score:88 },
+  "bangus":        { emoji:"🐟", calories:148, protein:20, carbs:0, fat:6, fiber:0, vitaminC:0, calcium:20, iron:0.5, potassium:300, vitaminA:50, vitaminD:4, vitaminB12:2.5, zinc:0.6, score:90 },
+  "sardines":      { emoji:"🐟", calories:208, protein:25, carbs:0, fat:11, fiber:0, vitaminC:0, calcium:382, iron:2.9, potassium:397, vitaminA:32, vitaminD:4.8, vitaminB12:8.9, zinc:1.3, score:95 },
+  "mackerel":      { emoji:"🐟", calories:205, protein:19, carbs:0, fat:14, fiber:0, vitaminC:0, calcium:12, iron:1.6, potassium:314, vitaminA:50, vitaminD:13, vitaminB12:7.2, zinc:0.7, score:94 },
+
+  "chickpeas":     { emoji:"🫘", calories:164, protein:9, carbs:27, fat:2.6, fiber:7.6, vitaminC:1.3, calcium:49, iron:2.9, potassium:291, vitaminA:1, vitaminD:0, vitaminB12:0, zinc:1.5, score:87 },
+  "lentils":       { emoji:"🫘", calories:116, protein:9, carbs:20, fat:0.4, fiber:7.9, vitaminC:1.5, calcium:19, iron:3.3, potassium:369, vitaminA:3, vitaminD:0, vitaminB12:0, zinc:1.3, score:88 },
+  "black beans":   { emoji:"🫘", calories:132, protein:9, carbs:24, fat:0.5, fiber:8.7, vitaminC:0, calcium:35, iron:2.1, potassium:355, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:1.1, score:86 },
+
+  "cabbage":       { emoji:"🥬", calories:25, protein:1.3, carbs:6, fat:0.1, fiber:2.5, vitaminC:36.6, calcium:40, iron:0.5, potassium:170, vitaminA:98, vitaminD:0, vitaminB12:0, zinc:0.2, score:84 },
+  "cucumber":      { emoji:"🥒", calories:15, protein:0.7, carbs:3.6, fat:0.1, fiber:0.5, vitaminC:2.8, calcium:16, iron:0.3, potassium:147, vitaminA:5, vitaminD:0, vitaminB12:0, zinc:0.2, score:80 },
+  "tomato":        { emoji:"🍅", calories:18, protein:0.9, carbs:3.9, fat:0.2, fiber:1.2, vitaminC:13.7, calcium:10, iron:0.3, potassium:237, vitaminA:42, vitaminD:0, vitaminB12:0, zinc:0.2, score:83 },
+
+  "pineapple":     { emoji:"🍍", calories:50, protein:0.5, carbs:13, fat:0.1, fiber:1.4, vitaminC:47.8, calcium:13, iron:0.3, potassium:109, vitaminA:3, vitaminD:0, vitaminB12:0, zinc:0.1, score:82 },
+  "mango":         { emoji:"🥭", calories:60, protein:0.8, carbs:15, fat:0.4, fiber:1.6, vitaminC:36.4, calcium:11, iron:0.2, potassium:168, vitaminA:54, vitaminD:0, vitaminB12:0, zinc:0.1, score:85 },
+  "watermelon":    { emoji:"🍉", calories:30, protein:0.6, carbs:8, fat:0.2, fiber:0.4, vitaminC:8.1, calcium:7, iron:0.2, potassium:112, vitaminA:28, vitaminD:0, vitaminB12:0, zinc:0.1, score:81 },
+
+  "peanut butter": { emoji:"🥜", calories:588, protein:25, carbs:20, fat:50, fiber:6, vitaminC:0, calcium:43, iron:1.9, potassium:649, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:3.3, score:86 },
+  "peanuts":       { emoji:"🥜", calories:567, protein:26, carbs:16, fat:49, fiber:8.5, vitaminC:0, calcium:92, iron:4.6, potassium:705, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:3.2, score:85 },
+
+  "coconut water": { emoji:"🥥", calories:19, protein:0.7, carbs:3.7, fat:0.2, fiber:1.1, vitaminC:2.4, calcium:24, iron:0.3, potassium:250, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:0.1, score:83 },
+  "coconut meat":  { emoji:"🥥", calories:354, protein:3.3, carbs:15, fat:33, fiber:9, vitaminC:3.3, calcium:14, iron:2.4, potassium:356, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:1.1, score:84 },
+
+  "eggplant":      { emoji:"🍆", calories:25, protein:1, carbs:6, fat:0.2, fiber:3, vitaminC:2.2, calcium:9, iron:0.2, potassium:229, vitaminA:23, vitaminD:0, vitaminB12:0, zinc:0.2, score:82 },
+  "onion":         { emoji:"🧅", calories:40, protein:1.1, carbs:9, fat:0.1, fiber:1.7, vitaminC:7.4, calcium:23, iron:0.2, potassium:146, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:0.2, score:81 },
+
+  "garlic":        { emoji:"🧄", calories:149, protein:6.4, carbs:33, fat:0.5, fiber:2.1, vitaminC:31.2, calcium:181, iron:1.7, potassium:401, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:1.2, score:88 },
+  "ginger":        { emoji:"🫚", calories:80, protein:1.8, carbs:18, fat:0.8, fiber:2, vitaminC:5, calcium:16, iron:0.6, potassium:415, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:0.3, score:87 },
+  
+    "grapes":        { emoji:"🍇", calories:69, protein:0.7, carbs:18, fat:0.2, fiber:0.9, vitaminC:10.8, calcium:10, iron:0.4, potassium:191, vitaminA:3, vitaminD:0, vitaminB12:0, zinc:0.1, score:82 },
+  "blueberries":   { emoji:"🫐", calories:57, protein:0.7, carbs:14, fat:0.3, fiber:2.4, vitaminC:9.7, calcium:6, iron:0.3, potassium:77, vitaminA:3, vitaminD:0, vitaminB12:0, zinc:0.2, score:88 },
+  "strawberries":  { emoji:"🍓", calories:32, protein:0.7, carbs:7.7, fat:0.3, fiber:2, vitaminC:58.8, calcium:16, iron:0.4, potassium:153, vitaminA:1, vitaminD:0, vitaminB12:0, zinc:0.1, score:90 },
+  "papaya":        { emoji:"🧡", calories:43, protein:0.5, carbs:11, fat:0.3, fiber:1.7, vitaminC:60.9, calcium:20, iron:0.3, potassium:182, vitaminA:47, vitaminD:0, vitaminB12:0, zinc:0.1, score:86 },
+  "guava":         { emoji:"🍈", calories:68, protein:2.6, carbs:14, fat:1, fiber:5.4, vitaminC:228, calcium:18, iron:0.3, potassium:417, vitaminA:31, vitaminD:0, vitaminB12:0, zinc:0.2, score:94 },
+
+  "banana cue":    { emoji:"🍌", calories:280, protein:1.5, carbs:58, fat:7, fiber:2.5, vitaminC:6, calcium:10, iron:0.6, potassium:400, vitaminA:5, vitaminD:0, vitaminB12:0, zinc:0.2, score:70 },
+  "turon":         { emoji:"🍌", calories:260, protein:3, carbs:45, fat:8, fiber:2, vitaminC:5, calcium:12, iron:0.5, potassium:220, vitaminA:3, vitaminD:0, vitaminB12:0, zinc:0.2, score:68 },
+
+  "fried chicken": { emoji:"🍗", calories:260, protein:25, carbs:8, fat:15, fiber:0, vitaminC:0, calcium:20, iron:1.2, potassium:300, vitaminA:30, vitaminD:0.2, vitaminB12:0.4, zinc:1.1, score:78 },
+  "pork belly":    { emoji:"🥓", calories:518, protein:9, carbs:0, fat:53, fiber:0, vitaminC:0, calcium:8, iron:0.5, potassium:320, vitaminA:10, vitaminD:0, vitaminB12:0.6, zinc:1.2, score:60 },
+  "pork chop":     { emoji:"🥩", calories:231, protein:24, carbs:0, fat:14, fiber:0, vitaminC:0, calcium:15, iron:1.1, potassium:340, vitaminA:10, vitaminD:0.1, vitaminB12:0.7, zinc:2.3, score:80 },
+
+  "shrimp":        { emoji:"🦐", calories:99, protein:24, carbs:0.2, fat:0.3, fiber:0, vitaminC:0, calcium:70, iron:0.5, potassium:264, vitaminA:54, vitaminD:0, vitaminB12:1.1, zinc:1.3, score:92 },
+  "crab":          { emoji:"🦀", calories:97, protein:19, carbs:0, fat:1.5, fiber:0, vitaminC:3, calcium:91, iron:0.7, potassium:259, vitaminA:50, vitaminD:0, vitaminB12:9, zinc:3.5, score:91 },
+  "squid":         { emoji:"🦑", calories:92, protein:16, carbs:3, fat:1.4, fiber:0, vitaminC:4, calcium:32, iron:0.7, potassium:246, vitaminA:30, vitaminD:0, vitaminB12:1.2, zinc:1.1, score:89 },
+
+  "corn":          { emoji:"🌽", calories:86, protein:3.2, carbs:19, fat:1.2, fiber:2.7, vitaminC:6.8, calcium:2, iron:0.5, potassium:270, vitaminA:9, vitaminD:0, vitaminB12:0, zinc:0.5, score:84 },
+  "peas":          { emoji:"🟢", calories:81, protein:5.4, carbs:14, fat:0.4, fiber:5.1, vitaminC:40, calcium:25, iron:1.5, potassium:244, vitaminA:38, vitaminD:0, vitaminB12:0, zinc:1.2, score:88 },
+  "cabbage":       { emoji:"🥬", calories:25, protein:1.3, carbs:6, fat:0.1, fiber:2.5, vitaminC:36.6, calcium:40, iron:0.5, potassium:170, vitaminA:98, vitaminD:0, vitaminB12:0, zinc:0.2, score:84 },
+
+  "garlic":        { emoji:"🧄", calories:149, protein:6.4, carbs:33, fat:0.5, fiber:2.1, vitaminC:31, calcium:181, iron:1.7, potassium:401, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:1.2, score:88 },
+  "onion":         { emoji:"🧅", calories:40, protein:1.1, carbs:9, fat:0.1, fiber:1.7, vitaminC:7.4, calcium:23, iron:0.2, potassium:146, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:0.2, score:81 },
+  "ginger":        { emoji:"🫚", calories:80, protein:1.8, carbs:18, fat:0.8, fiber:2, vitaminC:5, calcium:16, iron:0.6, potassium:415, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:0.3, score:87 },
+
+  "cassava":       { emoji:"🌿", calories:160, protein:1.4, carbs:38, fat:0.3, fiber:1.8, vitaminC:20.6, calcium:16, iron:0.3, potassium:271, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:0.3, score:82 },
+  "taro":          { emoji:"🌱", calories:142, protein:0.5, carbs:34, fat:0.1, fiber:5.1, vitaminC:4.5, calcium:43, iron:0.6, potassium:591, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:0.2, score:83 },
+  "ube":           { emoji:"💜", calories:118, protein:1.5, carbs:28, fat:0.2, fiber:4, vitaminC:4, calcium:17, iron:0.4, potassium:816, vitaminA:7, vitaminD:0, vitaminB12:0, zinc:0.2, score:86 },
+
+  "cheese":        { emoji:"🧀", calories:402, protein:25, carbs:1.3, fat:33, fiber:0, vitaminC:0, calcium:721, iron:0.7, potassium:98, vitaminA:330, vitaminD:0.6, vitaminB12:1.1, zinc:3.1, score:85 },
+  "butter":        { emoji:"🧈", calories:717, protein:0.9, carbs:0.1, fat:81, fiber:0, vitaminC:0, calcium:24, iron:0.0, potassium:24, vitaminA:684, vitaminD:1.5, vitaminB12:0.2, zinc:0.1, score:65 },
+
+  "dark chocolate":{ emoji:"🍫", calories:546, protein:5, carbs:61, fat:31, fiber:7, vitaminC:0, calcium:73, iron:11.9, potassium:715, vitaminA:0, vitaminD:0, vitaminB12:0, zinc:3.3, score:87 },
+
+  "oyster":        { emoji:"🦪", calories:68, protein:7, carbs:4.2, fat:2.5, fiber:0, vitaminC:8, calcium:82, iron:6.7, potassium:168, vitaminA:85, vitaminD:8, vitaminB12:16, zinc:78, score:97 },  
   "potato":         { emoji:"🥔", calories:77,  protein:2,   carbs:17, fat:0.1, fiber:2.2, vitaminC:19.7, calcium:12,  iron:0.8, potassium:421, vitaminA:0,   vitaminD:0,    vitaminB12:0,   zinc:0.3,  score:70 }
 };
 
